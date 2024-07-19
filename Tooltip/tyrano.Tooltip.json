@@ -320,7 +320,7 @@
     "prefix": "3d_delete_all",
     "body": ["[3d_delete_all cond=\"\"]"],
     "description": [
-     "Deletes all 3D objects.",​
+     "Deletes all 3D objects.",
 "Use this to reset the 3D scene.",
       "[parameter]",
       "  cond:",
@@ -925,7 +925,7 @@
 "file[required]:",
 "Specify the path to the patch file. Specify the hierarchy of the exe file as the starting point.",
 "reload:",
-"Specify true or false. If you specify true, the game will automatically restart after the patch is applied.",,
+"Specify true or false. If you specify true, the game will automatically restart after the patch is applied.",
       "  cond:",
       "    Write a JS expression and the tag will be executed only if the result is true.",
       "[sample code]",
@@ -1295,7 +1295,7 @@
 " width:",
 " You can specify the width of the button in pixels.",
 " height:",
-" You can specify the height of the button in pixels."
+" You can specify the height of the button in pixels.",
       " fix:",
 " Whether to make it a fixed button (a button that is always displayed, such as a save button). Specify true or false. Normal choice buttons are false (default). Unlike choice buttons, fixed buttons can be clicked on the screen while they are displayed to continue reading the scenario normally.",
 " If you specify true, the button will be placed on a special layer called the fix layer. To remove elements added to the fix layer, use the [clearfix] tag.",
@@ -1523,10 +1523,10 @@
     "prefix": "chara_delete",
     "body": ["[chara_delete name=\"\" cond=\"\"]"],
     "description": [
-      " Specify the name attribute defined in [chara_new].",​
-"Delete the character definition information.",​
-"[parameter]",​
-" name[required]:",​
+      " Specify the name attribute defined in [chara_new].",
+"Delete the character definition information.",
+"[parameter]",
+" name[required]:",
 " Specify the name attribute defined in [chara_new].",
       "  cond:",
       "    Write a JS expression and the tag will be executed only if the result is true.",
