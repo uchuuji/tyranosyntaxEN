@@ -29,7 +29,7 @@
       "You can animate 3D objects in a scene.",
       "[parameter]",
       "  name[required]:",
-      "    The name of the 3D object. This is the name of the 3D object that will be animated. If you want to animate a camera, specify the name "camera".",
+      "    The name of the 3D object. This is the name of the 3D object that will be animated. If you want to animate a camera, specify the name camera.",
       "  pos:",
       "    Specify the coordinates where the 3D object will be placed after animation. Specify the x, y and z coordinates by separating them with commas.",
       "  rot:",
